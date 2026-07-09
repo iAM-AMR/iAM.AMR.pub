@@ -30,7 +30,18 @@ website:
     logo-alt: "The iAM.AMR project logo. The logo consists of the text, 'iAM.AMR' in a black, blocky, sans-serif font, with the body of the lowercase 'i' styled as an elongated, red and white pill." 
     # logo-href: an alternative to index.html
     
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
     
+      - section: "Standards"
+        contents:
+          - text: "Traffic Light Protocol"
+            href: standards/traffic-light-protocol.qmd
+          - text: "RFC2119: Key Words"
+            href: standards/RFC2119.qmd
+
 
 format:
   html:
