@@ -7,6 +7,61 @@
     "text": "Integrated Assessment Model for Antimicrobial Resistance (iAM.AMR)\nWelcome to the iAM.AMR project website."
   },
   {
+    "objectID": "standards/RFC2119.html",
+    "href": "standards/RFC2119.html",
+    "title": "RFC2119: Key words for requirement levels",
+    "section": "",
+    "text": "The iAM.AMR project has adopted RFC2119 to define key words when specifying requirement levels.\nThe key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” are to be interpreted as described in RFC2119:\n\nMUST\n\nThis word, or the terms “REQUIRED” or “SHALL”, mean that the definition is an absolute requirement of the specification.\n\nMUST NOT\n\nThis phrase, or the phrase “SHALL NOT”, mean that the definition is an absolute prohibition of the specification.\n\nSHOULD\n\nThis word, or the adjective “RECOMMENDED”, mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course.\n\nSHOULD NOT\n\nThis phrase, or the phrase “NOT RECOMMENDED” mean that there may exist valid reasons in particular circumstances when the particular behavior is acceptable or even useful, but the full implications should be understood and the case carefully weighed before implementing any behavior described with this label.\n\nMAY\n\nThis word, or the adjective “OPTIONAL”, mean that an item is truly optional. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which does not include the option (except, of course, for the feature the option provides).",
+    "crumbs": [
+      "Standards",
+      "RFC2119: Key Words"
+    ]
+  },
+  {
+    "objectID": "standards/traffic-light-protocol.html",
+    "href": "standards/traffic-light-protocol.html",
+    "title": "The Traffic Light Protocol for information sharing",
+    "section": "",
+    "text": "“The Traffic Light Protocol (TLP) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four labels used to indicate the sharing boundaries to be applied by the recipients.” (FIRST)\nThe iAM.AMR project has adopted the TLP to simplify information sharing.",
+    "crumbs": [
+      "Standards",
+      "Traffic Light Protocol"
+    ]
+  },
+  {
+    "objectID": "standards/traffic-light-protocol.html#introduction",
+    "href": "standards/traffic-light-protocol.html#introduction",
+    "title": "The Traffic Light Protocol for information sharing",
+    "section": "",
+    "text": "“The Traffic Light Protocol (TLP) was created to facilitate greater sharing of potentially sensitive information and more effective collaboration. Information sharing happens from an information source, towards one or more recipients. TLP is a set of four labels used to indicate the sharing boundaries to be applied by the recipients.” (FIRST)\nThe iAM.AMR project has adopted the TLP to simplify information sharing.",
+    "crumbs": [
+      "Standards",
+      "Traffic Light Protocol"
+    ]
+  },
+  {
+    "objectID": "standards/traffic-light-protocol.html#usage",
+    "href": "standards/traffic-light-protocol.html#usage",
+    "title": "The Traffic Light Protocol for information sharing",
+    "section": "Usage",
+    "text": "Usage\nWhen you share your information with somebody else, include one of the four TLP markers (TLP:RED, TLP:AMBER, TLP:GREEN, or TLP:CLEAR) to indicate how widely that information may be shared with others. Prior to sharing others’ information with somebody else, review the TLP marker to understand how you may (or may not) share the information. If no marker exists, contact the original author for more details.\n\n\n\n\n\n\n\n\n\n\n\nTLP Colour\nSummary\nSharing\nWhen should it be used?\nExample\n\n\n\n\nTLP:RED \nNot for disclosure, restricted to participants only.\nRecipients may not share TLP:RED information with any parties outside of the specific exchange, meeting, or conversation in which it was originally disclosed.\nWhen information cannot be effectively acted upon by additional parties, and could lead to impacts on a party’s privacy, reputation, or operations if misused.\ne.g. personally identifiable information, raw data sets, early manuscripts.\n\n\nTLP:AMBER \nLimited disclosure, restricted to participants’ organizations.\nRecipients may only share TLP:AMBER information with members of the iAM.AMR team. This is the default level for all information stored in the iAM.AMR GitHub Organization.\nWhen information requires support to be effectively acted upon, and carries risks to privacy, reputation, or operations if shared outside of the organizations involved.\ne.g. incomplete models, internal communications, meeting notes.\n\n\nTLP:GREEN \nLimited disclosure, restricted to the community.\nRecipients may share TLP:GREEN information with peers and partner organizations within their sector or community as necessary. Care should be taken to highlight the preliminary nature of any conclusions.\nWhen information is useful for the awareness of all participating organizations as well as with peers within the broader community or sector.\ne.g. presentations, posters, preliminary results.\n\n\nTLP:CLEAR \nPublic disclosure.\nSubject to standard copyright rules, TLP:WHITE information may be distributed without restriction.\nWhen information has been released to the public.\ne.g. peer-reviewed publications, presentations to stakeholders, public documentation.\n\n\n\n\nUse the TLP in e-mail\nPrepend the subject with the TLP marker. Append the TLP marker to the file name of any attachments.\nNote, a colon (:) is not a valid file name character.\nFor example:\nSubject:     TLP:RED Unreleased microbial surveillence data\nBody:        Please find attached the preliminary data that will be released in \n             the upcomming surveillence report.\nAttachments: microbial_counts_TLP-RED.csv.\n\n\nUse the TLP online\nThe iAM.AMR project uses shields.io badges as a TLP markers.\nGenerate a sheilds.io badge in markdown using:\n# Badge\nTLP:RED   &gt;&gt;&gt; ![TLP Level Badge](https://img.shields.io/badge/TLP-RED-red)\nTLP:AMBER &gt;&gt;&gt; ![TLP Level Badge](https://img.shields.io/badge/TLP-AMBER-yellow)\nTLP:GREEN &gt;&gt;&gt; ![TLP Level Badge](https://img.shields.io/badge/TLP-GREEN-brightgreen)\nTLP:CLEAR &gt;&gt;&gt; ![TLP Level Badge](https://img.shields.io/badge/TLP-CLEAR-lightgrey)\n\n# Badge with Link\n[![TLP Level Badge](https://img.shields.io/badge/TLP-CLEAR-lightgrey)](https://docs.iam.amr.pub)",
+    "crumbs": [
+      "Standards",
+      "Traffic Light Protocol"
+    ]
+  },
+  {
+    "objectID": "standards/traffic-light-protocol.html#limitations",
+    "href": "standards/traffic-light-protocol.html#limitations",
+    "title": "The Traffic Light Protocol for information sharing",
+    "section": "Limitations",
+    "text": "Limitations\nThe TLP is simply a tool to guide information sharing; there is no mechanism by which to enfore the TLP. You should apply additional access controls to protect sensitive information, and/or be more specific with sharing boundaries where applicable.\nThe TLP level may be inferred from context (e.g., anything requiring a login to access is likely TLP:AMBER at minimum). However, you should not rely on others to correctly interpret context; always be explicit.",
+    "crumbs": [
+      "Standards",
+      "Traffic Light Protocol"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

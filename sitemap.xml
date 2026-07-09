@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://iam.amr.pub/index.html</loc>
-    <lastmod>2026-07-09T23:10:03.016Z</lastmod>
+    <lastmod>2026-07-09T23:34:17.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iam.amr.pub/standards/RFC2119.html</loc>
+    <lastmod>2026-07-09T23:34:17.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://iam.amr.pub/standards/traffic-light-protocol.html</loc>
+    <lastmod>2026-07-09T23:34:17.937Z</lastmod>
   </url>
   <url>
     <loc>https://iam.amr.pub/about.html</loc>
-    <lastmod>2026-07-09T23:10:03.015Z</lastmod>
+    <lastmod>2026-07-09T23:34:17.936Z</lastmod>
   </url>
 </urlset>
