@@ -1,0 +1,48 @@
+project:
+  type: website
+  output-dir: _site
+  # render: files to render (supports wildcards)
+  # resources: files to copy to the output directory.
+  preview: 
+    port: 4200
+    
+
+website:
+  title: "iAM.AMR"
+  description: "The iAM.AMR project."
+  #favicon: 
+  site-url: "https://iam.amr.pub"
+  repo-url: "https://github.com/iAM-AMR/iAM.AMR.pub"
+  open-graph: true
+  #image:
+  #image-alt: 
+  
+  announcement: 
+    content: "This website is currently under development. Please find the previous version [here](https://docs.iam.amr.pub)."
+    dismissable: true
+    icon: exclamation-circle
+    position: below-navbar
+    type: primary
+  
+  navbar:
+    title: false
+    logo: "/assets/iamamr_logo_white.png"
+    logo-alt: "The iAM.AMR project logo. The logo consists of the text, 'iAM.AMR' in a black, blocky, sans-serif font, with the body of the lowercase 'i' styled as an elongated, red and white pill." 
+    # logo-href: an alternative to index.html
+    
+    
+
+format:
+  html:
+    respect-user-color-scheme: true
+    theme:
+      light: pulse
+      dark: cyborg
+    css: styles.css
+    toc: true
+
+
+editor: source
+
+execute: 
+  freeze: auto

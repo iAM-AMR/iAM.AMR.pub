@@ -1,0 +1,23 @@
+---
+pagetitle: "The iAM.AMR project"
+toc: false
+---
+
+::: {.light-content}
+
+![](assets/iamamr_logo.png){fig-alt="The iAM.AMR project logo. The logo consists of the text, 'iAM.AMR' in a black, blocky, sans-serif font, with the body of the lowercase 'i' styled as an elongated, red and white pill."}
+
+:::
+
+
+::: {.dark-content}
+
+![](assets/iamamr_logo_white.png){fig-alt="The iAM.AMR project logo. The logo consists of the text, 'iAM.AMR' in a black, blocky, sans-serif font, with the body of the lowercase 'i' styled as an elongated, red and white pill."}
+
+:::
+
+***Integrated Assessment Model for Antimicrobial Resistance* (*iAM.AMR*)**
+
+Welcome to the iAM.AMR project website.
+
+
